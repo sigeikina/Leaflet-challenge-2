@@ -22,15 +22,6 @@ d3.json(allWeekURL, function (data) {
       ? "#ccff00"
       : "#00ff00";
   }
-  // switch (true) {
-  //   case (d > 90) : return '#b31b1b'; break;  // carnelian
-  //   case (d > 70 && d <= 90) : return '#ff8243'; break; // mango tango
-  //   case (d > 50 && d <= 70) : return '#e25822'; break;  // flame
-  //   case (d > 30 && d <= 50) : return '#f8de7e'; break; // jasmine
-  //   case (d > 10 && d <= 30) : return '#ccff00'; break;  // flourescent yellow
-  //   case (d > -10 && d <= 10) : return '#00ff00'; break; //  green
-  //   default: return '#087830';  // la salle green
-  // }
 
   // create features
   // create a geoJSON layer containing the features array on the earthquakes object
